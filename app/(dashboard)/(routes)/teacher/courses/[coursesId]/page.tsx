@@ -1,6 +1,6 @@
-const CoursesIdPage = () => {
+const CoursesIdPage = ({ params }: { params: { coursesId: string } }) => {
   return (
-      <div>CoursesIdPage</div>
+      <div>CoursesIdPage { params.coursesId }</div>
   )
 }
 
